@@ -1,0 +1,12 @@
+Ambiguity Type,Total,Correct,Accuracy
+Locational Extent Ambiguity,10,0,0.0
+Toponymical Semantic Ambiguity,8,0,0.0
+Location Geometry Type Ambiguity,5,0,0.0
+Toponymical Naming Ambiguity,9,0,0.0
+Relational Semantic Ambiguity,8,0,0.0
+Relational Geometric Ambiguity,8,0,0.0
+Geometric Result Ambiguity,10,0,0.0
+Semantic Result Ambiguity,11,0,0.0
+Temporal Spatial Ambiguity,11,0,0.0
+Spatial Granularity Ambiguity,10,0,0.0
+Spatial Part Ambiguity,15,0,0.0
