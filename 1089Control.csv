@@ -1,0 +1,25 @@
+﻿Which rivers cross London?,Toponymic Ambiguity,"Thames, Lea, Mole, Wandle, Ravensbourne","(UK vs. Ontario, Canada)"
+Is there a Levi's store in Athens?,Toponymic Ambiguity,yes,"(Greece vs. Georgia, USA)"
+Which countries border Greece?,Relational Ambiguity,"Albania, Bulgaria, Turkey, North Macedonia",Does this include maritime borders or only land?
+How many cities are there in the United Kingdom?,Point-based height geometry,76 (as of 2024),
+Which is the largest city in Greece?,Semantic & Temporal,Athens,Largest by land area/geometry or population?
+Does the river Thames flow through London?,Semantic & Temporal,yes,"Semantic interpretation of ""flow through"" relative to city limits"
+What is the population of the capital of France?,Semantic & Temporal,"2.1 million (City of Paris, 2024 estimate), ~11 million (Metropolitan area)",Temporal: population changes year-over-year
+Which mountains are in Scotland?,Point-based height geometry,"Ben Nevis, Cairn Gorm, Ben Macdui",Mountain granularity
+Give me the cities of Germany with more than 1 million inhabitants.,Location & Spatial Granularity,"Berlin, Hamburg, Munich, Cologne","Granularity of ""city"" vs. ""metropolitan area"""
+Is Liverpool located on the eastern side of the Irish Sea?,Relational Ambiguity,yes,(Relative orientation)
+Which states border Texas?,Location & Spatial Granularity,"New Mexico, Oklahoma, Arkansas, Louisiana",Scale of administrative boundaries
+What are the neighboring countries of Germany?,Location & Spatial Granularity,"Denmark, Poland, Czech Republic, Austria, Switzerland, France, Luxembourg, Belgium, Netherlands",Scale of administrative boundaries
+Which city is the capital of Italy?,Semantic & Temporal,Rome,What is a capital and is it current
+How many hotels in Belfast are at most 2km from George Best Belfast City Airport?,Relational Ambiguity,"Varies, usually 3-5 major hotels within that radius",(Vague distance thresholding)
+Is Corsica larger than Crete?,Geometric Ambiguity,yes,Comparing complex geometric shapes
+Which rivers flow through more than three countries?,Location & Spatial Granularity," Danube, Rhine, Drava. ",Is it current
+What is the highest mountain in Greece?,Geometric Ambiguity," Los Angeles, San Francisco, San Diego, Sacramento",Point-based height geometry
+Which cities are located in the state of California?,Toponymic Ambiguity,"Los Angeles, San Francisco, San Diego, Sacramento",The US state vs. several towns named California worldwide
+What are the coordinates of Paris?,Toponymic Ambiguity,"48.8566 N, 2.3522 E",France vs. Texas vs. Ontario
+Which sea borders both Greece and Italy?,Relational Ambiguity, Ionian Sea,(Handling multiple shared spatial relations)
+Are there any volcanoes in Italy?,Point-based height geometry,yes,Point entities within a polygon?
+What is the elevation of Mount Olympus?,Semantic & Temporal,2917 m,elevation in?
+Which island is the largest in the Mediterranean?,Point-based height geometry,"By Land Area: Sicily (approx. 25,711 ) By Coastline Length: Sardinia (approx. 1,849 km)",An entity as part of a sea body
+How many bridges are in Venice?,Location & Spatial Granularity,~400 (often cited as 391 or 435),"Defining the granularity of ""Venice"""
+Which lake is the largest in Europe?,Geometric Ambiguity,"Lake Ladoga, Russia",By surface area or total volume?

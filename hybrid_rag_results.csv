@@ -1,0 +1,107 @@
+Query,Ambiguity Type,Ground Truth,Prediction,Status,Time,Similarity,Length
+What is the area of Deoghar?,Locational Extent Ambiguity,Area of Deoghar district,City area of Deoghar,correct,51.81302738,0.8982,20
+How far is Baidyanathdham from Mansarovar?,Locational Extent Ambiguity,Distance between temple complex centroid and Mansarovar pond centroid,Temple complex to pond using road distance,hallucinated,47.99028206,0.6444,42
+How far apart are the hills of Trikut Buru?,Locational Extent Ambiguity,Distance between the three peak points,Distance between each other among the hills of Trikut Buru,hallucinated,150.4407761,0.468,58
+What is the extent of Marang Buru?,Locational Extent Ambiguity,Area of the hill region defined by slope < 2°,The spatial expanse or area covered by the Marang Buru hill in Dumka.,hallucinated,217.6724844,0.3166,69
+How far is Trikut Buru from Marang Buru?,Locational Extent Ambiguity,Centroid of Trikut hills to centroid of Marang Buru,Distance between Trikut Buru and Marang Buru.,hallucinated,209.2467432,0.557,45
+What is the size of Baidyanathdham?,Locational Extent Ambiguity,Area of the temple complex only,Area in square metres (or hectares),hallucinated,119.102654,0.3414,35
+How long is the Marang Buru ridge?,Locational Extent Ambiguity,Length along the ridge line,Length or extent of the ridgeline of the Marang Buru hill.,hallucinated,128.7664981,0.5305,58
+What is the extent of Trikut Buru?,Locational Extent Ambiguity,Area enclosed by the three peaks,Extent of Trikut Buru refers to its geographical area or size.,hallucinated,118.0288856,0.2665,62
+How wide is Dumka city?,Locational Extent Ambiguity,East-west span of Dumka municipal boundary,Width (or breadth) of Dumka city in square kilometres.,correct,115.4777668,0.7522,54
+Distance from Deoghar railway station to the edge of the district?,Locational Extent Ambiguity,Shortest path to Deoghar district boundary,Distance from Deoghar railway station to the boundary of the district,correct,110.2008505,0.7474,69
+What is the distance between Parasnath Hill and Marang Buru?,Toponymical Semantic Ambiguity,Parasnath Hill in Giridih district,Distance between Parasnath Hill and Marang Buru.,correct,148.4511318,0.6752,48
+"Where is Nayapara, Dumka?",Toponymical Semantic Ambiguity,Nayapara village not the locality in Dumka city,Nayapara is located in the Dumka district.,correct,112.8847172,0.858,42
+Where is Parasnath?,Toponymical Semantic Ambiguity,Parasnath Hill in Jharkhand,Parasnath is located in the Giridih district.,correct,119.5736053,0.7226,45
+What is the height of Marang Buru?,Toponymical Semantic Ambiguity,The sacred Marang Buru hill in Dumka,Height above sea level of Marang Buru hill.,hallucinated,124.6976178,0.6061,43
+Where is Baba Dham?,Toponymical Semantic Ambiguity,Baidyanathdham temple in Deoghar,"Baba Dham refers to the Baidyanathdham temple complex, located in Deoghar.",correct,116.2331188,0.7661,74
+Is there a Mansarovar in Dumka?,Toponymical Semantic Ambiguity,Mansarovar pond inside the temple complex,"Yes, there is a Mansarovar located within Dumka district.",hallucinated,124.8318894,0.462,57
+Where is Trikut?,Toponymical Semantic Ambiguity,Trikut Buru hill complex in Deoghar,"Located in Jharkhand, India.",hallucinated,104.5355597,0.3435,28
+Where is Marang Buru located?,Toponymical Semantic Ambiguity,Marang Buru sacred hill in Dumka,"Marang Buru is located in Dumka, Jharkhand.",correct,130.6671309,0.7201,43
+Where is Mansarovar?,Location Geometry Type Ambiguity,Centroid of Mansarovar pond,"Located in the Indian state of Uttarakhand, near Mount Kailash.",hallucinated,126.591295,0.1495,63
+Where is Trikut Buru?,Location Geometry Type Ambiguity,Centroid of the hill complex,"Trikut Buru hills are located in Deoghar, Jharkhand.",hallucinated,116.1281972,0.2438,52
+What is the location of Marang Buru?,Location Geometry Type Ambiguity,Peak point of the hill,"Marang Buru is located in Dumka district, Jharkhand.",hallucinated,103.0507433,0.0815,52
+Where is Dumka Sadar Hospital?,Location Geometry Type Ambiguity,Centroid of hospital building,The Dumka Sadar Hospital is located within the Dumka district.,hallucinated,123.8972805,0.2373,62
+Distance between Deoghar and Dumka?,Location Geometry Type Ambiguity,City centroid to city centroid,Road distance between Deoghar and Dumka,hallucinated,108.9961386,0.0779,39
+What is Santali name for Dumka?,Toponymical Naming Ambiguity,ᱫᱩᱢᱠᱟ,ᱫᱩᱢᱠᱟ (Dumka in Santali language),hallucinated,109.0249321,0.3403,43
+What is Ol Chiki name Dumka?,Toponymical Naming Ambiguity,ᱫᱩᱢᱠᱟ,ᱫᱩᱢᱠᱟ (Ol Chiki script for Dumka),hallucinated,110.4108856,0.3151,43
+Is Devghar = Deoghar?,Toponymical Naming Ambiguity,"Yes, both refer to the same city","Yes, Devghar is the same as Deoghar.",hallucinated,90.67165756,0.2422,36
+Is Trikut = Trikut Buru?,Toponymical Naming Ambiguity,"Yes, Trikut refers to Trikut Buru hills",Trikut and Trikut Buru refer to the same location.,correct,117.1125412,0.8155,50
+What is the Santali name for Baidyanathdham?,Toponymical Naming Ambiguity,ᱵᱟᱭᱫᱭᱚᱱᱟᱛᱷ ᱫᱷᱟᱢ in Ol Chiki,Name of Baidyanathdham in Santali language,hallucinated,114.6278789,0.2011,42
+What is the old name of Marang Buru?,Toponymical Naming Ambiguity,Pre-colonial Santali name of the sacred hill,The old name of Marang Buru is not specified in the provided examples.,hallucinated,108.8280187,0.3223,70
+What is the Ol Chiki spelling of Mansarovar?,Toponymical Naming Ambiguity,ᱢᱟᱱᱥᱟᱨᱚᱣᱟᱨ (local pond reference),ᱫᱩᱢᱠᱟ मानसरोवर (Ol Chiki spelling of Mansarovar),hallucinated,120.7033355,0.1726,74
+Historical aliases of Parasnath Hill?,Toponymical Naming Ambiguity,Shri Parshvanath and related historical names,Historical names of Parasnath Hill,hallucinated,121.9526718,0.4734,34
+Is Baba Dham the same as Baidyanathdham?,Toponymical Naming Ambiguity,Yes both refer to the same temple complex,"Yes, Baba Dham and Baidyanathdham are the same.",hallucinated,105.4910302,0.381,47
+Which pond is near Baidyanathdham?,Relational Semantic Ambiguity,Mansarovar pond using road distance,Pond(s) located near the temple complex of Baidyanathdham.,hallucinated,166.9811997,0.4245,58
+Which town is next to Dumka?,Relational Semantic Ambiguity,Town that touches Dumka boundary,Neighboring towns of Dumka,correct,165.0509858,0.9117,26
+Which hospital is next to Baidyanathdham?,Relational Semantic Ambiguity,Hospital sharing boundary with temple complex,Nearby medical facility or hospital in relation to the Baidyanathdham temple complex.,hallucinated,144.7414789,0.5238,85
+Which villages in Dumka are not reachable by roads?,Relational Semantic Ambiguity,Villages with no road intersecting their polygon,Villages in Dumka without motorable road access,hallucinated,113.9688983,0.6359,47
+Is Nayapara near Dumka city?,Relational Semantic Ambiguity,Road distance less than 5 km,Nayapara is close to Dumka city.,hallucinated,100.9131958,0.1542,32
+Which hills are adjacent to Marang Buru?,Relational Semantic Ambiguity,Hills sharing a boundary line with Marang Buru,"Hills located near Marang Buru, a sacred hill in Dumka.",hallucinated,143.2412801,0.6239,55
+Are there villages reachable only by foot from Trikut Buru?,Relational Semantic Ambiguity,Villages without motorable road access,Villages accessible solely via footpaths from Trikut Buru.,hallucinated,117.6737938,0.6111,58
+Which road is closest to Mansarovar pond?,Relational Semantic Ambiguity,Shortest road distance not Euclidean,Road leading directly to the vicinity of Mansarovar pond.,hallucinated,106.7403307,0.3347,57
+Distance between Deoghar and Dumka?,Relational Geometric Ambiguity,Geometric centroid distance,Road distance between Deoghar and Dumka,hallucinated,135.7703011,0.1719,39
+Distance between base and main peak of Trikut Buru?,Relational Geometric Ambiguity,Walking distance along the path,Distance between the base and main peak of Trikut Buru.,hallucinated,215.4626281,0.1657,55
+How far is peak of Marang Buru from its base?,Relational Geometric Ambiguity,Walking distance not vertical elevation,Distance between the base and peak of Marang Buru.,hallucinated,154.7719715,0.2915,50
+Is Mansarovar pond near Baidyanathdham temple?,Relational Geometric Ambiguity,Near but not sharing a boundary,Distance between Mansarovar pond and Baidyanathdham temple centroid using road distance,hallucinated,108.5042388,0.1196,87
+Distance from Dumka Sadar Hospital to Deoghar?,Relational Geometric Ambiguity,Road distance not centroid distance,Distance in kilometres from Dumka Sadar Hospital to Deoghar city centroid.,hallucinated,113.677876,0.3692,74
+Is Trikut Buru next to Marang Buru?,Relational Geometric Ambiguity,Centroid distance less than 15 km but no shared boundary,"No, Trikut Buru and Marang Buru are not adjacent. They are located in different districts of Jharkhand.",hallucinated,142.9733119,0.2315,103
+Height difference between the three peaks of Trikut Buru?,Relational Geometric Ambiguity,Vertical elevation difference,Difference in elevation between the three peaks,correct,115.4950621,0.7615,47
+Road distance vs straight-line from Nayapara village to Dumka city centre?,Relational Geometric Ambiguity,Comparison of road distance and Euclidean distance,"Distance using road network from Nayapara village to Dumka city center, considering curves and turns.",hallucinated,165.0804012,0.4377,101
+What is the area of Dumka?,Geometric Result Ambiguity,Area in square kilometres,Area of Dumka district in square kilometers.,hallucinated,106.0636241,0.5469,44
+What is the distance between Dumka and Deoghar?,Geometric Result Ambiguity,Distance in kilometres,Road distance between Dumka and Deoghar,hallucinated,131.6291127,0.375,39
+What is the height of Marang Buru?,Geometric Result Ambiguity,Height in meters,Height above sea level of Marang Buru hill.,hallucinated,115.9854703,0.4511,43
+What is the road distance between Deoghar and Dumka?,Geometric Result Ambiguity,Distance in kilometres using road network,Road distance between Deoghar and Dumka,hallucinated,124.2137458,0.4293,39
+What is the road distance between Baidyanathdham and Mansarovar?,Geometric Result Ambiguity,Distance in kilometres not metres,Road distance between Baidyanathdham and Mansarovar pond,hallucinated,120.0492132,0.2753,56
+In which direction of Dumka is Baidyanathdham?,Geometric Result Ambiguity,Cardinal direction not degrees,Cardinal direction (NE),correct,109.6464241,0.8327,23
+What is the length of the Trikut Buru trek route?,Geometric Result Ambiguity,Length in kilometres,Length of the path from the trek start to the main peak of Trikut Buru.,hallucinated,102.1383202,0.4372,71
+In which direction is Parasnath Hill from Dumka?,Geometric Result Ambiguity,Cardinal direction (SW),Cardinal direction of Parasnath Hill from Dumka,hallucinated,130.7560434,0.4379,47
+What is the boundary length of Baidyanathdham temple complex?,Geometric Result Ambiguity,Length in metres,Length of the perimeter surrounding the Baidyanathdham temple complex,hallucinated,120.5612526,0.3657,69
+How big is Mansarovar pond?,Geometric Result Ambiguity,Area in square metres,Area of Mansarovar pond,hallucinated,113.8644593,0.2642,23
+"Where is Baidyanathdham, Deoghar?",Semantic Result Ambiguity,Centroid of Baidyanathdham temple complex,Location of Baidyanathdham in Deoghar,hallucinated,99.21536565,0.6118,37
+Where is Trikut Buru?,Semantic Result Ambiguity,Located in Deoghar district,"Trikut Buru hills are located in Deoghar, Jharkhand.",hallucinated,126.064676,0.5554,52
+Where is the main gate of Baidyanathdham?,Semantic Result Ambiguity,Primary entrance location,Location of Baidyanathdham's main gate,hallucinated,128.5458794,0.4235,38
+"What is next to Sadar Hospital, Deoghar?",Semantic Result Ambiguity,Building sharing a boundary with the hospital,Adjacent buildings or structures in Deoghar near Sadar Hospital.,hallucinated,127.3612161,0.5226,64
+"Which road is next to Baidyanathdham, Deoghar?",Semantic Result Ambiguity,Shankar Road near the main gate,"Adjacent road to Baidyanathdham, Deoghar",hallucinated,124.3556972,0.5784,40
+Where is Dumka Sadar Hospital Blood Bank?,Semantic Result Ambiguity,Inside the Dumka Sadar Hospital campus,Part of hospital campus,hallucinated,103.8108723,0.6219,23
+Is the Mansarovar pond next to Baidyanathdham?,Semantic Result Ambiguity,Near but not sharing boundary,Relationship between centroid of Mansarovar pond and Baidyanathdham temple complex.,hallucinated,158.5648019,0.0854,83
+Is Marang Buru in Dumka?,Semantic Result Ambiguity,Not inside Dumka city but in Dumka district,Marang Buru is not located within Dumka. It's a separate geographical feature.,correct,112.1815083,0.6571,78
+What is adjacent to Trikut Buru base?,Semantic Result Ambiguity,Village or road touching the base polygon,Shared boundary with the base of Trikut Buru.,hallucinated,118.117635,0.3919,45
+Which blood bank is inside Dumka Sadar Hospital?,Semantic Result Ambiguity,The blood bank contained in the hospital building,Part of hospital campus (contains blood bank),correct,112.080687,0.765,45
+Is Nayapara part of Dumka?,Semantic Result Ambiguity,Inside Dumka district but outside the city boundary,Nayapara was part of the historical Dumka district.,hallucinated,113.7098467,0.5838,51
+What was the area of Dumka earlier?,Temporal Spatial Ambiguity,Pre-2010 district boundary,Historical district area size,hallucinated,112.4795318,0.6392,29
+Was Marang Buru inside Dumka earlier?,Temporal Spatial Ambiguity,Historical administrative boundary,Marang Buru was previously located within the boundaries of Dumka.,hallucinated,107.0289073,0.231,66
+Was Marang Buru inside Dumka earlier?,Temporal Spatial Ambiguity,Depends on historical administrative boundary,Marang Buru was previously located within the boundaries of Dumka.,hallucinated,99.57777071,0.2192,66
+How far was Deoghar from Dumka before the highway was built?,Temporal Spatial Ambiguity,Road distance changed over time,Pre-highway city to city distance in kilometres (historical data required),hallucinated,110.8045115,0.5339,74
+Where was the old railway station of Deoghar?,Temporal Spatial Ambiguity,Historical location not the current one,Location of the former railway station in Deoghar,hallucinated,105.382746,0.3447,49
+Is Mansarovar pond still inside the temple complex?,Temporal Spatial Ambiguity,Current vs historical boundary,Within the boundaries of the temple complex,hallucinated,109.41857,0.2959,43
+Has the boundary of Baidyanathdham changed?,Temporal Spatial Ambiguity,Earlier vs present temple extent,The boundaries of Baidyanathdham may have altered over time.,hallucinated,119.9899831,0.3405,60
+Which villages were part of Dumka before the district division?,Temporal Spatial Ambiguity,Historical district boundaries,Pre-district division administrative units within Dumka district.,hallucinated,119.1822393,0.427,65
+Was Parasnath Hill earlier part of Dumka district?,Temporal Spatial Ambiguity,Administrative change over time,"Yes, Parasnath Hill was earlier part of Dumka district.",hallucinated,132.2480378,0.0897,55
+Where was the original base of Trikut Buru trek?,Temporal Spatial Ambiguity,Old trek route start location,Origin location of Trikut Buru trek base,hallucinated,119.2032542,0.5321,40
+Which roads near Baidyanathdham existed before 2000?,Temporal Spatial Ambiguity,Historical road network,Roads existing near Baidyanathdham prior to the year 2000.,hallucinated,192.1432965,0.3643,58
+Where is Dumka?,Spatial Granularity Ambiguity,Dumka district not city,"Dumka is located in Jharkhand, India.",correct,110.4070714,0.762,37
+How big is Deoghar?,Spatial Granularity Ambiguity,District area not city area,Area of Deoghar city or town,hallucinated,123.7484813,0.5526,28
+Distance from Deoghar to Dumka?,Spatial Granularity Ambiguity,City to city distance not district distance,Road distance between Deoghar and Dumka.,hallucinated,178.1614351,0.38,40
+What is the population of Dumka?,Spatial Granularity Ambiguity,District population vs city population ambiguity,Population in numbers for Dumka district or city.,hallucinated,106.2683799,0.529,49
+Where is Trikut?,Spatial Granularity Ambiguity,Peak vs hill complex vs region ambiguity,"Located in Jharkhand, India.",hallucinated,120.3560641,0.1456,28
+Is Marang Buru in Dumka?,Spatial Granularity Ambiguity,Inside district not city,Marang Buru is not located within Dumka. It's a separate geographical feature.,hallucinated,115.3252091,0.3007,78
+Where is Nayapara?,Spatial Granularity Ambiguity,Village vs locality ambiguity,"Located in Dumka district, Jharkhand.",hallucinated,107.2453523,0.1914,37
+Which is bigger Dumka or Deoghar?,Spatial Granularity Ambiguity,District vs city confusion,Size comparison of areas (Dumka or Deoghar),hallucinated,109.221251,0.2468,43
+How far is Baidyanathdham from Dumka?,Spatial Granularity Ambiguity,Temple to city or temple to district ambiguity,Distance in kilometres between Baidyanathdham and Dumka.,hallucinated,110.2855146,0.1622,56
+Is Parasnath near Dumka?,Spatial Granularity Ambiguity,Distance depends on city vs district reference,"Parasnath is not near Dumka, it's located in a different district.",hallucinated,98.7407918,0.2188,66
+Where is Baidyanathdham?,Spatial Part Ambiguity,Temple complex not the city,"Located in Deoghar, Jharkhand, India.",hallucinated,120.0417058,0.3313,37
+Where is the peak of Marang Buru?,Spatial Part Ambiguity,Highest elevation point of the hill,"The peak of Marang Buru is located in Dumka, Jharkhand.",hallucinated,128.5162694,0.2518,55
+Where is the entrance of Baidyanathdham?,Spatial Part Ambiguity,Main gate vs any gate,Entrance location of Baidyanathdham temple complex,hallucinated,118.9182353,0.2103,50
+Where is the base of Trikut Buru?,Spatial Part Ambiguity,Trek start vs hill boundary,Base location of Trikut Buru hill complex,hallucinated,108.4700174,0.2793,41
+Where is the peak of Marang Buru?,Spatial Part Ambiguity,Highest elevation point vs sacred location,"The peak of Marang Buru is located in Dumka, Jharkhand.",hallucinated,118.4089029,0.3225,55
+Where is Mansarovar?,Spatial Part Ambiguity,Centroid vs boundary vs ghat ambiguity,"Located in the Indian state of Uttarakhand, near Mount Kailash.",hallucinated,136.3216727,0.0641,63
+Where is the hospital in Dumka?,Spatial Part Ambiguity,Main building vs entire campus,The hospital located within Dumka district.,hallucinated,147.0677927,0.0907,43
+Where is the road to Trikut Buru?,Spatial Part Ambiguity,Road segment vs road endpoint,Road leading to Trikut Buru.,hallucinated,298.3493252,0.3581,28
+Which part of Dumka is Nayapara in?,Spatial Part Ambiguity,Administrative ward vs locality,Nayapara is located within the Dumka district.,hallucinated,151.2915566,0.0736,46
+Which temple inside Baidyanathdham is the main shrine?,Spatial Part Ambiguity,Part of temple complex,Main shrine location within the Baidyanathdham temple complex.,hallucinated,146.3552854,0.5847,62
+Which hill in Trikut Buru is the highest?,Spatial Part Ambiguity,Highest peak among the three hills,Height ranking of the peaks within the Trikut Buru hill complex.,correct,183.2235427,0.6797,64
+Where is the Mansarovar ghat?,Spatial Part Ambiguity,Part of the pond boundary,"Centroid location of Mansarovar ghat, typically near the temple complex.",hallucinated,120.2736392,0.1681,72
+Where is the western entrance of Baidyanathdham?,Spatial Part Ambiguity,Specific gate not entire complex,Location of the western main gate of Baidyanathdham.,hallucinated,142.5433779,0.3039,52
+Which building inside Dumka Sadar Hospital is the main ward?,Spatial Part Ambiguity,Part of hospital campus,The primary ward located within the Dumka Sadar Hospital building.,hallucinated,145.4780438,0.4245,66
+Which peak of Trikut Buru is the highest?,Spatial Part Ambiguity,Highest elevation peak,Height of the tallest peak in Trikut Buru.,correct,149.2679136,0.6549,42
+Average values,,,,,126.2839031,0.41918,51.67619048
